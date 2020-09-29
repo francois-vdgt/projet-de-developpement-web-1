@@ -10,5 +10,6 @@ body{
 
 #images:hover{
     border-radius: 30px; 
-    transform: rotate(18deg);
+    transform: rotate(30deg);
+    animation-duration: 3s;
 }
