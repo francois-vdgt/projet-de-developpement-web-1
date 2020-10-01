@@ -6,15 +6,19 @@
 //a.addEventListener("click", function(){
   //  alert('message'); 
 //}); 
-  
+ 
 
-const btns = document.getElementsByClassName('btn'); 
-btns[0].addEventListener("click", function(){
-    alert('message'); 
-})
+//const btns = document.getElementsByClassName('btn'); 
+//btns[0].addEventListener("click", function(){
+  //  alert('message'); 
+//});
 
-console.log(btns); 
+ $("#pp").on('click', function(){
+         $(".table tr:last").remove(); 
+ }); 
 
+
+ 
 
 
 
